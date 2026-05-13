@@ -1,115 +1,269 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-    <meta charset="UTF-8">
-    <title>JOVECO - Supermercat de proximitat</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JOVECO - Presentació</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <img src="img/logo.png" alt="Logo JOVECO" width="120">
-    <h1>JOVECO</h1>
-    <p>Supermercat de proximitat i productes ecològics</p>
+  <div><strong>JOVECO</strong> · Presentació del projecte</div>
+  <nav>
+    <a href="#s01">Inici</a>
+    <a href="#s03">Context</a>
+    <a href="#s07">Solució</a>
+    <a href="#s13">Demo</a>
+    <a href="#s17">Resultats</a>
+  </nav>
 </header>
 
-<nav>
-    <a href="#inici">Inici</a>
-    <a href="#quisom">Qui som</a>
-    <a href="#productes">Productes</a>
-    <a href="#consulta">Consulta</a>
-</nav>
-
-<main style="width: 80%; margin: auto; text-align: center;">
-
-<section id="inici">
-    <h2>Del camp al supermercat</h2>
-
-   <img src="img/camp.jpg?v=10" alt="Camp de cultiu" width="500">
-    <p>
-        JOVECO neix amb la idea de modernitzar un negoci agrícola tradicional
-        i convertir-lo en un supermercat més proper, organitzat i digital.
-    </p>
-</section>
-
-<section id="quisom">
-    <h2>Qui som?</h2>
-
-    <p>
-        JOVECO és un projecte basat en productes de proximitat, fruita i verdura
-        de temporada i una gestió més moderna del supermercat.
-    </p>
-
-    <p>
-        L’objectiu és combinar la venda física amb una part digital, millorant
-        la gestió dels productes, l’estoc i les comandes.
-    </p>
-</section>
-
-<section id="productes">
-    <h2>Productes destacats</h2>
-
-    <p>Aquests són alguns productes destacats de JOVECO.</p>
-
-    <table style="margin: 15px auto; text-align: center;">
-        <tr>
-            <th>Producte</th>
-            <th>Imatge</th>
-            <th>Origen</th>
-            <th>Descripció</th>
-        </tr>
-
-        <tr>
-            <td>Poma Golden</td>
-            <td><img src="img/pomes.jpg?v=10" alt="Poma Golden" width="120"></td>
-            <td>Girona</td>
-            <td>Poma dolça i cruixent, ideal com a producte de temporada.</td>
-        </tr>
-
-        <tr>
-            <td>Tomàquet de proximitat</td>
-            <td><img src="img/tomaquet.jpg" alt="Tomàquet" width="120"></td>
-            <td>Baix Empordà</td>
-            <td>Tomàquet fresc seleccionat per oferir qualitat i bon sabor.</td>
-        </tr>
-
-        <tr>
-            <td>Oli d’oliva</td>
-            <td><img src="img/oli.jpg" alt="Oli d'oliva" width="120"></td>
-            <td>Catalunya</td>
-            <td>Oli d’oliva de qualitat pensat com a producte premium.</td>
-        </tr>
-    </table>
-</section>
-
-<section id="consulta">
-    <h2>Consulta de producte</h2>
-
-    <p>
-        Selecciona un producte per consultar la informació guardada a la base de dades.
-    </p>
-
-   <form action="consulta.php" method="POST" style="margin: auto; width: 350px;">
-        <label for="producte">Producte:</label>
-        <br><br>
-
-        <select name="producte" id="producte">
-            <option value="1">Poma Golden</option>
-            <option value="2">Tomàquet de proximitat</option>
-            <option value="3">Enciam ecològic</option>
-            <option value="4">Oli d’oliva</option>
-        </select>
-
-        <br><br>
-
-        <input type="submit" value="Consultar">
-    </form>
-</section>
-
+<main>
+  <section class="diapositiva" id="s01">
+    <img src="slides/slide-01.png" alt="Diapositiva 1">
+    <div class="controls">
+      <a href="#s30">‹ Anterior</a>
+      <span>1 / 30</span>
+      <a href="#s02">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s02">
+    <img src="slides/slide-02.png" alt="Diapositiva 2">
+    <div class="controls">
+      <a href="#s01">‹ Anterior</a>
+      <span>2 / 30</span>
+      <a href="#s03">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s03">
+    <img src="slides/slide-03.png" alt="Diapositiva 3">
+    <div class="controls">
+      <a href="#s02">‹ Anterior</a>
+      <span>3 / 30</span>
+      <a href="#s04">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s04">
+    <img src="slides/slide-04.png" alt="Diapositiva 4">
+    <div class="controls">
+      <a href="#s03">‹ Anterior</a>
+      <span>4 / 30</span>
+      <a href="#s05">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s05">
+    <img src="slides/slide-05.png" alt="Diapositiva 5">
+    <div class="controls">
+      <a href="#s04">‹ Anterior</a>
+      <span>5 / 30</span>
+      <a href="#s06">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s06">
+    <img src="slides/slide-06.png" alt="Diapositiva 6">
+    <div class="controls">
+      <a href="#s05">‹ Anterior</a>
+      <span>6 / 30</span>
+      <a href="#s07">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s07">
+    <img src="slides/slide-07.png" alt="Diapositiva 7">
+    <div class="controls">
+      <a href="#s06">‹ Anterior</a>
+      <span>7 / 30</span>
+      <a href="#s08">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s08">
+    <img src="slides/slide-08.png" alt="Diapositiva 8">
+    <div class="controls">
+      <a href="#s07">‹ Anterior</a>
+      <span>8 / 30</span>
+      <a href="#s09">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s09">
+    <img src="slides/slide-09.png" alt="Diapositiva 9">
+    <div class="controls">
+      <a href="#s08">‹ Anterior</a>
+      <span>9 / 30</span>
+      <a href="#s10">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s10">
+    <img src="slides/slide-10.png" alt="Diapositiva 10">
+    <div class="controls">
+      <a href="#s09">‹ Anterior</a>
+      <span>10 / 30</span>
+      <a href="#s11">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s11">
+    <img src="slides/slide-11.png" alt="Diapositiva 11">
+    <div class="controls">
+      <a href="#s10">‹ Anterior</a>
+      <span>11 / 30</span>
+      <a href="#s12">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s12">
+    <img src="slides/slide-12.png" alt="Diapositiva 12">
+    <div class="controls">
+      <a href="#s11">‹ Anterior</a>
+      <span>12 / 30</span>
+      <a href="#s13">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s13">
+    <img src="slides/slide-13.png" alt="Diapositiva 13">
+    <div class="controls">
+      <a href="#s12">‹ Anterior</a>
+      <span>13 / 30</span>
+      <a href="#s14">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s14">
+    <img src="slides/slide-14.png" alt="Diapositiva 14">
+    <div class="controls">
+      <a href="#s13">‹ Anterior</a>
+      <span>14 / 30</span>
+      <a href="#s15">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s15">
+    <img src="slides/slide-15.png" alt="Diapositiva 15">
+    <div class="controls">
+      <a href="#s14">‹ Anterior</a>
+      <span>15 / 30</span>
+      <a href="#s16">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s16">
+    <img src="slides/slide-16.png" alt="Diapositiva 16">
+    <div class="controls">
+      <a href="#s15">‹ Anterior</a>
+      <span>16 / 30</span>
+      <a href="#s17">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s17">
+    <img src="slides/slide-17.png" alt="Diapositiva 17">
+    <div class="controls">
+      <a href="#s16">‹ Anterior</a>
+      <span>17 / 30</span>
+      <a href="#s18">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s18">
+    <img src="slides/slide-18.png" alt="Diapositiva 18">
+    <div class="controls">
+      <a href="#s17">‹ Anterior</a>
+      <span>18 / 30</span>
+      <a href="#s19">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s19">
+    <img src="slides/slide-19.png" alt="Diapositiva 19">
+    <div class="controls">
+      <a href="#s18">‹ Anterior</a>
+      <span>19 / 30</span>
+      <a href="#s20">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s20">
+    <img src="slides/slide-20.png" alt="Diapositiva 20">
+    <div class="controls">
+      <a href="#s19">‹ Anterior</a>
+      <span>20 / 30</span>
+      <a href="#s21">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s21">
+    <img src="slides/slide-21.png" alt="Diapositiva 21">
+    <div class="controls">
+      <a href="#s20">‹ Anterior</a>
+      <span>21 / 30</span>
+      <a href="#s22">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s22">
+    <img src="slides/slide-22.png" alt="Diapositiva 22">
+    <div class="controls">
+      <a href="#s21">‹ Anterior</a>
+      <span>22 / 30</span>
+      <a href="#s23">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s23">
+    <img src="slides/slide-23.png" alt="Diapositiva 23">
+    <div class="controls">
+      <a href="#s22">‹ Anterior</a>
+      <span>23 / 30</span>
+      <a href="#s24">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s24">
+    <img src="slides/slide-24.png" alt="Diapositiva 24">
+    <div class="controls">
+      <a href="#s23">‹ Anterior</a>
+      <span>24 / 30</span>
+      <a href="#s25">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s25">
+    <img src="slides/slide-25.png" alt="Diapositiva 25">
+    <div class="controls">
+      <a href="#s24">‹ Anterior</a>
+      <span>25 / 30</span>
+      <a href="#s26">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s26">
+    <img src="slides/slide-26.png" alt="Diapositiva 26">
+    <div class="controls">
+      <a href="#s25">‹ Anterior</a>
+      <span>26 / 30</span>
+      <a href="#s27">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s27">
+    <img src="slides/slide-27.png" alt="Diapositiva 27">
+    <div class="controls">
+      <a href="#s26">‹ Anterior</a>
+      <span>27 / 30</span>
+      <a href="#s28">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s28">
+    <img src="slides/slide-28.png" alt="Diapositiva 28">
+    <div class="controls">
+      <a href="#s27">‹ Anterior</a>
+      <span>28 / 30</span>
+      <a href="#s29">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s29">
+    <img src="slides/slide-29.png" alt="Diapositiva 29">
+    <div class="controls">
+      <a href="#s28">‹ Anterior</a>
+      <span>29 / 30</span>
+      <a href="#s30">Següent ›</a>
+    </div>
+  </section>
+  <section class="diapositiva" id="s30">
+    <img src="slides/slide-30.png" alt="Diapositiva 30">
+    <div class="controls">
+      <a href="#s29">‹ Anterior</a>
+      <span>30 / 30</span>
+      <a href="#s01">Següent ›</a>
+    </div>
+  </section>
 </main>
 
 <footer>
-    <p>JOVECO - Supermercat de proximitat</p>
+  <p>Presentació web del projecte JOVECO · SMX 2025-2026</p>
 </footer>
 
 </body>

@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  background: #1f5f35;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  z-index: 10;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.4);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 55px;
+}
+
+.diapositiva {
+  min-height: calc(100vh - 55px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.diapositiva img {
+  max-width: 95vw;
+  max-height: 82vh;
+  width: auto;
+  height: auto;
+  background: white;
+  box-shadow: 0 0 25px rgba(0,0,0,0.45);
+}
+
+.controls {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.controls a {
+  background: #1f5f35;
+  color: white;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.controls a:hover {
+  background: #2c7a46;
+}
+
+.controls span {
+  color: #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #ccc;
+}
+
+@media (max-width: 800px) {
+  header {
+    height: auto;
+    padding: 12px;
+    display: block;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 8px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 4px;
+  }
+
+  main {
+    padding-top: 95px;
+  }
+
+  .diapositiva {
+    min-height: calc(100vh - 95px);
+  }
+}
